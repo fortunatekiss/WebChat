@@ -1,0 +1,124 @@
+.title_wrap {
+    position: relative;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.dialog {
+    width: 600px;
+    height: 300px;
+    margin: 24px auto 0 auto;
+    padding: 0 20px 0 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.element::-webkit-scrollbar {
+    display: none
+}
+
+.dialog::-webkit-scrollbar {
+    display: none;
+}
+
+.overall {
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+.user, .server {
+    padding: 6px;
+    display: flex;
+}
+
+.user {
+    justify-content: flex-end;
+}
+
+.server {
+    justify-content: flex-start;
+}
+
+.userMsg, .serverMsg {
+    width: 75%;
+    position: relative;
+}
+
+.userMsg {
+    text-align: right;
+}
+
+.serverMsg {
+    text-align: left;
+}
+
+.userReply, .serverReply {
+    text-align: left;
+    display: inline-block;
+    padding: 8px;
+    margin: 0 15px 12px;
+}
+
+.userReply {
+    background-color: skyblue;
+}
+
+.serverReply {
+    background-color: antiquewhite;
+}
+
+.userTriangle, .serverTriangle {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 10px;
+    display: inline-block;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.userTriangle {
+    right: 4px;
+    border-left: 12px solid skyblue;
+}
+
+.serverTriangle {
+    left: 4px;
+    border-right: 12px solid antiquewhite;
+}
+
+.userAvatar, .serverAvatar {
+    width: 45px;
+    height: 45px;
+}
+
+.inputText {
+    width: 780px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px 0 0;
+    background-color: white;
+}
+
+.ensureClick {
+    float: right;
+    width: 100px;
+    background-color: transparent;
+    border-color: #d6d6d6;
+}
+
+
+
+
+
+
+
+
+

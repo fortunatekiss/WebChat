@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebChat</title>
+    <link href="home.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="home.js"></script>
+</head>
+<body>
+<div class="overall">
+    <div class="title_wrap">
+        <p>Hello Server</p>
+    </div>
+    <div class="dialog" id="dialog">
+        <script>
+            load();
+        </script>
+    </div>
+    <hr style="height:1px; color: #d6d6d6;">
+    <form method="post" action="">
+        <textarea class="inputText" placeholder="Add dialog" id="inputText" style="font-size: 16px"></textarea>
+    </form>
+    <button class="ensureClick" onclick="send()">发送</button>
+</div>
+</body>
+</html>
+
